@@ -72,13 +72,14 @@ The dataset used is the [Pima Indians Diabetes Dataset](https://www.kaggle.com/d
 2. Install the required libraries:
    ```bash
    pip install pandas ydata-profiling scikit-learn
-````
+   ````
 
 3. Run the script:
 
    ```bash
    python main.py
    ```
+
 
 ## ✍️ Author
 

@@ -44,28 +44,20 @@ The dataset used is the [Pima Indians Diabetes Dataset](https://www.kaggle.com/d
 
 ## 🧪 Sample Output
 
-```
-
-```
-          precision    recall  f1-score   support
-
-       0       0.79      0.90      0.84       XXX
-       1       0.71      0.52      0.60       XXX
-
-accuracy                           0.77       XXX
-```
-
-macro avg       0.75      0.71      0.72       XXX
-weighted avg       0.76      0.77      0.76       XXX
-
-```
+| Class        | Precision | Recall | F1-Score | Support |
+|--------------|-----------|--------|----------|---------|
+| **0**        | 0.77      | 0.83   | 0.80     | 99      |
+| **1**        | 0.65      | 0.56   | 0.60     | 55      |
+|              |           |        |          |         |
+| **Accuracy** |           |        | 0.73     | 154     |
+| **Macro avg**| 0.71      | 0.70   | 0.70     | 154     |
+| **Weighted avg** | 0.73  | 0.73   | 0.73     | 154     |
 
 (*Numbers vary depending on the dataset split*)
 
 ## 📁 Project Structure
 
 ```
-
 .
 ├── Datasets/
 │   └── diabetes.csv

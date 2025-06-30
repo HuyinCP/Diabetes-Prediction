@@ -27,6 +27,5 @@ x_test = scaler.transform(x_test)
 # Train model
 model = SVC()
 model.fit(x_train, y_train)
-
 y_prd = model.predict(x_test)
 print(classification_report(y_test, y_prd))

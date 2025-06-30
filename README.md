@@ -83,5 +83,5 @@ The dataset used is the [Pima Indians Diabetes Dataset](https://www.kaggle.com/d
 
 ## ✍️ Author
 
-Nghiêm Quang Huy
+Nghiêm Quang Huy <br>
 AI/Machine Learning Project – 2025

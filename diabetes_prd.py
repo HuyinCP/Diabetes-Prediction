@@ -16,7 +16,7 @@ df = pd.read_csv("Datasets/diabetes.csv")
 
 # Data visualization and statistics
 profile = ProfileReport(df, title="Diabetes report", explorative=True)
-profile.to_file("Diabetes.html")
+profile.to_file("DIABETES_report.html")
 
 # Data split
 target = "Outcome"

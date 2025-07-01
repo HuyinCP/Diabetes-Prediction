@@ -12,8 +12,7 @@ from ydata_profiling import ProfileReport
 from lazypredict.Supervised import LazyClassifier
 
 # Read data
-file_path = 'Datasets/diabetes.csv'
-df = pd.read_csv(file_path)
+df = pd.read_csv("Datasets/diabetes.csv")
 
 # Data visualization and statistics
 profile = ProfileReport(df, title="Diabetes report", explorative=True)

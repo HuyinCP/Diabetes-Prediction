@@ -4,7 +4,7 @@ from ydata_profiling import ProfileReport
 # Read data
 df = pd.read_csv("Datasets/csgo.csv")
 
-profile = ProfileReport(df, title="CSGO report", explorative=True)
-profile.to_file("CSGO_report.html")
+# profile = ProfileReport(df, title="CSGO report", explorative=True)
+# profile.to_file("CSGO_report.html")
 
-
+print(df.head(10))

@@ -1,8 +1,8 @@
 # Diabetes Prediction using Support Vector Machine (SVM)
 
 This project uses a Support Vector Machine (SVM) classification model to predict whether an individual has diabetes based on biological features.
-
-## 📊 Dataset
+`
+## 📊 Dataset`
 
 The dataset used is the [Pima Indians Diabetes Dataset](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database), which includes medical diagnostic measurements such as:
 
@@ -77,7 +77,7 @@ The dataset used is the [Pima Indians Diabetes Dataset](https://www.kaggle.com/d
 3. Run the script:
 
    ```bash
-   python main.py
+   python diabetes_prd.py
    ```
 
 

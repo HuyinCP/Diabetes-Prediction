@@ -8,6 +8,7 @@ from sklearn.linear_model import LogisticRegression
 from  sklearn.model_selection import GridSearchCV
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
+from ydata_profiling import ProfileReport
 from lazypredict.Supervised import LazyClassifier
 
 # Read data
@@ -15,8 +16,8 @@ file_path = 'Datasets/diabetes.csv'
 df = pd.read_csv(file_path)
 
 # Data visualization and statistics
-# profile = ProfileReport(df, title="Diabetes report", explorative=True)
-# profile.to_file("Diabetes.html")
+profile = ProfileReport(df, title="Diabetes report", explorative=True)
+profile.to_file("Diabetes.html")
 
 # Data split
 target = "Outcome"
